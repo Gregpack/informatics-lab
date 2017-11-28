@@ -1,9 +1,7 @@
 #!/bin/bash/
 wget http://factorized.net/crusoe.txt
-awk '{
-    gsub ("Friday", "Saturday", $0)
-    print > FILENAME
-}' crusoe.txt
+cat crusoe.txt | sed -n 'Friday/p' | wc -w
+sed -i 's/Friday/Saturday/g' crusoe.txt
 awk '{
     x=0
     y=0
