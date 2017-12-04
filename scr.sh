@@ -1,8 +1,4 @@
-#!/bin/bash/
-wget http://factorized.net/crusoe.txt
-cat crusoe.txt | sed -n 's/Friday/Friday/gp' | wc -w
-sed -i 's/Friday/Saturday/g' crusoe.txt
-cat crusoe.txt | sed -n 's/Friday/Friday/gp' | wc -w
+#!/bin/bash
 awk '{
     x=0
     y=0
