@@ -1,2 +1,0 @@
-script will work with crusoe.txt (will change "Friday" -> "Saturday") and with testfile.txt (will print sum of numbers in first column and second)
-DANGER: script will download a txt file (may be unwanted)
